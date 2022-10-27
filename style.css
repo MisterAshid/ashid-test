@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.max-width{
+    max-width: 1920px;
+}
+.logo{
+    cursor: pointer;
+    margin-right: 1000px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;  
+    margin:44 0 0 0;    
+    /* position: absolute; */
+}
+nav ul li{
+    display: inline-block; 
+    justify-content:flex-end;
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    cursor: pointer;
+    color: #000000;
+}
+.main-section h1{
+    position: absolute;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    transform: translate(200px, -620px);
+}
+ .section-1{
+    position: relative;
+ }
+ .text{ 
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+ }
+ .text-top-left{
+    position: absolute;
+    top: 34px;
+    left: 42px;
+ }
+.text-top-right{
+    position: absolute;
+    top:34px;
+    right: 230px;
+}
+#padding{
+    padding-right: 1049px;
+}
+.phones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .phones:hover{
+    background-color: blue;
+} */
+#phones-main-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+.background{
+    width: 480px;
+    height: 480px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row ;
+}
+.background:hover{
+    background-color: blue;
+    color: white;
+}
+.background h1{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 34px;
+    align-self: flex-end;
+}
+#img-1{
+    background: url(./Phones/img-1.jpg);
+}
+#img-2{
+    background: url(./Phones/img-2.jpg);
+}
+#img-3{
+    background: url(./Phones/img-3.jpg);
+}
+#img-4{
+    background: url(./Phones/img-4.jpg);
+}
+#img-5{
+    background: url(./Phones/img-5.jpg);
+}
+#img-6{
+    background: url(./Phones/img-6.png);
+}
+#img-7{
+    background: url(./Phones/img-7.jpg);
+}
+#img-8{
+    background: url(./Phones/img-8.jpg);
+}
+.footer{
+    margin-top: 44px;
+}
+.footer-logo img{
+    padding-right: 32px;
+    cursor: pointer;
+}
+.footer-logo p{
+    display: inline;
+    padding-right: 37px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #999999;
+    margin-top: 44px;
+}
+.footer-last{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    margin-top: 88px;
+}
+.footer-last p{
+    display: inline-block;
+    margin-left: 35px;
+}
